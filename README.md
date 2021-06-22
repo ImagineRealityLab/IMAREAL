@@ -1,2 +1,2 @@
 # IMAREAL
-Data, experimental and analysis code for "Subjective intermixing of imagination and reality"
+Data, experimental and analysis code for "Fundamental constraints on distinguishing reality and imagination". Each experimental folder contains the data as a zip-file and a 'MasterWrapper.m' script which walks through all analyses steps and create the figures reported in the paper. The data needs to be unzipped before the script can be run. The simulations folder also contains a 'MasterWrapper.m' script that runs all simulations and creates the figures. 

@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(128, 128,128);
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  /*justify-content: center;
+
+  /* This centers our sketch vertically. */
+  /*align-items: center;*/
+}
+
+h1 {
+  /*text-align: center;*/
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  text-align: left;
+  /*width: 600px;*/
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+/* borrowing Bootstrap style for btn elements, but combining styles a bit */
+.jspsych-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  cursor: pointer;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.jspsych-btn:hover {
+  background-color: #ddd;
+  border-color: #aaa;
+}
+
+.jspsych-btn:disabled {
+  background-color: #eee;
+  color: #aaa;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.jspsych-display-element input[type="text"] {
+  width: 600px
+}
